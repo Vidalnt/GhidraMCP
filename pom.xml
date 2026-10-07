@@ -80,9 +80,9 @@
 
   <build>
     <plugins>
-      <!-- Fija nivel de compilación: sin esto, JDKs modernos fallan con
+      <!-- Pin the compiler level: without this, modern JDKs fail with
            "Source option 5 is no longer supported" (upstream issue #99,
-           PR #113 nunca mergeado). -->
+           PR #113 never merged). -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
