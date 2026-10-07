@@ -96,7 +96,7 @@
       <!-- Use custom MANIFEST.MF -->
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.2.2</version>
+        <version>3.5.0</version>
         <configuration>
           <archive>
             <manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
@@ -116,7 +116,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
-        <version>3.3.0</version>
+        <version>3.8.0</version>
         <configuration>
           <!-- Using the custom assembly descriptor -->
           <descriptors>
@@ -145,7 +145,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-dependency-plugin</artifactId>
-        <version>3.1.2</version>
+        <version>3.8.1</version>
         <executions>
           <execution>
             <id>copy-dependencies</id>
